@@ -20,25 +20,25 @@
 
 #aside-content .card-power.card-widget {
     padding: .4rem .6rem
-  }
-  
-  #aside-content .card-power .power-charge {
+}
+
+#aside-content .card-power .power-charge {
     margin-left: auto;
     color: var(--efu-secondtext);
     font-size: 14px;
     line-height: 1
-  }
-  
-  #aside-content .card-power .power-charge:hover {
+}
+
+#aside-content .card-power .power-charge:hover {
     color: var(--efu-lighttext)
-  }
-  
-  #aside-content .card-power .item-headline i {
+}
+
+#aside-content .card-power .item-headline i {
     font-size: 22px;
     margin-right: 4px
-  }
-  
-  #aside-content .card-power #power-star {
+}
+
+#aside-content .card-power #power-star {
     display: flex;
     padding: 8px;
     border: var(--style-border-always);
@@ -51,19 +51,19 @@
     background: var(--efu-secondbg);
     transition: .3s ease-out;
     cursor: pointer
-  }
-  
-  #aside-content .card-power #power-star:hover {
+}
+
+#aside-content .card-power #power-star:hover {
     background: var(--efu-main);
     color: var(--efu-white);
     box-shadow: var(--efu-shadow-theme)
-  }
-  
-  #aside-content .card-power #power-star:hover #power-star-image {
+}
+
+#aside-content .card-power #power-star:hover #power-star-image {
     transform: scale(.9)
-  }
-  
-  #aside-content .card-power #power-star #power-star-image {
+}
+
+#aside-content .card-power #power-star #power-star-image {
     width: 60px;
     height: 60px;
     border-radius: 60px;
@@ -71,9 +71,9 @@
     margin-right: 12px;
     border: var(--style-border-always);
     transition: .3s ease-out
-  }
-  
-  #aside-content .card-power #power-star #power-star-title {
+}
+
+#aside-content .card-power #power-star #power-star-title {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -81,9 +81,9 @@
     font-weight: 700;
     line-height: 1;
     margin-bottom: 8px
-  }
-  
-  #aside-content .card-power #power-star #power-star-desc {
+}
+
+#aside-content .card-power #power-star #power-star-desc {
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
@@ -91,9 +91,9 @@
     font-size: 12px;
     max-width: 100%;
     line-height: 1.2
-  }
-  
-  #aside-content .card-power #power-star .power-star-body {
+}
+
+#aside-content .card-power #power-star .power-star-body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -101,49 +101,49 @@
     position: relative;
     width: calc(100% - 68px);
     justify-content: center
-  }
-  
-  #aside-content .card-power .power-list {
+}
+
+#aside-content .card-power .power-list {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     margin: 0 -4px
-  }
-  
-  #aside-content .card-power .power-list .power-item-body {
+}
+
+#aside-content .card-power .power-list .power-item-body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap
-  }
-  
-  #aside-content .card-power .power-list .power-item .power-item-link a {
+}
+
+#aside-content .card-power .power-list .power-item .power-item-link a {
     padding: 2px 4px;
     border-radius: 4px;
     margin-left: 8px
-  }
-  
-  #aside-content .card-power .power-list .power-item .power-item-link a:hover {
+}
+
+#aside-content .card-power .power-list .power-item .power-item-link a:hover {
     background: var(--efu-main);
     color: var(--efu-white)
-  }
-  
-  #aside-content .card-power hr {
+}
+
+#aside-content .card-power hr {
     display: flex;
     position: relative;
     margin: .5rem 0;
     border: 1px dashed var(--efu-theme-op)
-  }
-  
-  #aside-content .card-power .power-set {
+}
+
+#aside-content .card-power .power-set {
     margin: 10px 0;
     width: 100%;
     display: flex;
     gap: 10px;
     justify-content: center;
     flex-wrap: wrap
-  }
-  
-  #aside-content .card-power .power-set a {
+}
+
+#aside-content .card-power .power-set a {
     padding: 4px 8px;
     border-radius: 8px;
     background: var(--efu-secondbg);
@@ -156,17 +156,34 @@
     transition: .3s;
     gap: 4px;
     font-size: 14px
-  }
-  
-  #aside-content .card-power .power-set a:hover {
+}
+
+#aside-content .card-power .power-set a:hover {
     background: var(--efu-main);
     color: var(--efu-white)
-  }
-  
-  .card-widget.card-weather {
+}
+
+.card-widget.card-weather {
     padding: 0 !important;
-  }
-  
-  .card-widget.card-weather #he-plugin-standard {
+}
+
+.card-widget.card-weather #he-plugin-standard {
     max-width: 420px;
-  }
+}
+
+.card-power .st-heart-3-fill {
+    color: #f56c6c;
+    animation: scale 1s infinite;
+}
+
+@keyframes scale {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
