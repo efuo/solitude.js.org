@@ -369,10 +369,6 @@ post:
         qcode: https://s3.qjqq.cn/47/663742bac8e52.webp!color
         url: https://s3.qjqq.cn/47/663742bac8e52.webp!color
         color: var(--efu-green)
-      - name: 爱发电
-        qcode: https://s3.qjqq.cn/47/661ba8e695f17.webp!color
-        url: https://afdian.net/a/efu0u0/
-        color: var(--efu-purple)
   # 分享按钮，需要是什么哪些按钮，填写后开启
   share:
     enable: true
