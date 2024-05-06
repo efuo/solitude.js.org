@@ -915,17 +915,17 @@ CDN:
   # The CDN provider of internal scripts (主题内 js 的 cdn 配置)
   # option: local/jsdelivr/unpkg/cdnjs/custom
   # Dev version can only choose. ( dev版本只能为 local )
-  internal: cdnjs
+  internal: custom
   # The CDN provider of third party scripts (第三方 js 的 cdn 配置)
   # option: jsdelivr/unpkg/cdnjs/custom
-  third_party: cdnjs
+  third_party: custom
 
   # Add version number to url, true or false
   version: true
 
   # Custom format
   # For example: https://cdn.staticfile.net/${cdnjs_name}/${version}/${min_cdnjs_file}
-  custom_format: //cdn.staticfile.net/${cdnjs_name}/${version}/${min_cdnjs_file}
+  custom_format: //open.lightxi.com/cdnjs/ajax/libs/${cdnjs_name}/${version}/${min_cdnjs_file}
 
   option:
     solitude_css: //cdn2.codesign.qq.com/icons/7pOrz0WXB5ZWJPX/latest/iconfont.css
