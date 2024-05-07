@@ -903,10 +903,10 @@ right_menu:
       class:
       icon: st-price-tag-fill
     - name: 赞助主题
-      click: window.open('https://afdian.net/a/efu0u0/', '_blank')
+      click: window.open('https://s3.qjqq.cn/47/663742160be01.webp!color', '_blank')
       id:
       class:
-      icon: st-afdian-line
+      icon: st-heart-3-fill
 
 # CDN
 # Don't modify the following settings unless you know how they work
