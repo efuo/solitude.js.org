@@ -3,7 +3,7 @@
   "short_name": "Solitude",
   "theme_color": "#0E83CD",
   "background_color": "#0E83CDdd",
-  "description": "Be careful and enjoy it.",
+  "description": "一款优雅的 Hexo 主题",
   "display": "fullscreen",
   "scope": "/",
   "start_url": "/",
@@ -11,39 +11,63 @@
   "id": "/",
   "icons": [
     {
-      "src": "/img/pwa/favicon_16.ico",
+      "src": "https://s3.qjqq.cn/47/663999deb00f4.webp!color",
       "sizes": "16x16",
-      "type": "image/png",
+      "type": "image/webp",
       "purpose": "any"
     },
     {
-      "src": "/img/pwa/favicon_16.ico",
+      "src": "https://s3.qjqq.cn/47/663999deb00f4.webp!color",
       "sizes": "16x16",
-      "type": "image/png",
+      "type": "image/webp",
       "purpose": "maskable"
     },
     {
-      "src": "/img/pwa/favicon_32.ico",
+      "src": "https://s3.qjqq.cn/47/663999c46d48d.webp!color",
       "sizes": "32x32",
-      "type": "image/png",
+      "type": "image/webp",
       "purpose": "any"
     },
     {
-      "src": "/img/pwa/favicon_32.ico",
+      "src": "https://s3.qjqq.cn/47/663999c46d48d.webp!color",
       "sizes": "32x32",
-      "type": "image/png",
+      "type": "image/webp",
       "purpose": "maskable"
     },
     {
-      "src": "/img/pwa/favicon.ico",
+      "src": "https://s3.qjqq.cn/47/663999a5ee230.webp!color",
       "sizes": "64x64",
-      "type": "image/png",
+      "type": "image/webp",
       "purpose": "any"
     },
     {
-      "src": "/img/pwa/favicon.ico",
+      "src": "https://s3.qjqq.cn/47/663999a5ee230.webp!color",
       "sizes": "64x64",
-      "type": "image/png",
+      "type": "image/webp",
+      "purpose": "maskable"
+    },
+    {
+      "src": "https://s3.qjqq.cn/47/66399928e7379.webp!color",
+      "sizes": "128x128",
+      "type": "image/webp",
+      "purpose": "any"
+    },
+    {
+      "src": "https://s3.qjqq.cn/47/66399928e7379.webp!color",
+      "sizes": "128x128",
+      "type": "image/webp",
+      "purpose": "maskable"
+    },
+    {
+      "src": "https://s3.qjqq.cn/47/66399a6ff1259.webp!color",
+      "sizes": "144x144",
+      "type": "image/webp",
+      "purpose": "any"
+    },
+    {
+      "src": "https://s3.qjqq.cn/47/66399a6ff1259.webp!color",
+      "sizes": "144x144",
+      "type": "image/webp",
       "purpose": "maskable"
     }
   ],

@@ -27,10 +27,10 @@ site:
     custom: Solitude
   # 网页icon
   # Web icon
-  siteIcon: /img/pwa/favicon.ico
+  siteIcon: https://s3.qjqq.cn/47/66399a6ff1259.webp!color
   # 页脚的Logo、加载动画默认的logo
   # Logo in the footer, default logo for loading animation
-  icon: /img/pwa/favicon.ico
+  icon: https://s3.qjqq.cn/47/66399a6ff1259.webp!color
 
 # 导航栏
 # NavBar
@@ -39,7 +39,7 @@ nav:
   # logo group
   group:
     项目: # 分类名称
-      Solitude: https://github.com/valor-x/hexo-theme-solitude || /img/pwa/favicon.ico # 子菜单名称(submenu name): 链接地址(address) || 图标(icon)
+      Solitude: https://github.com/valor-x/hexo-theme-solitude || https://s3.qjqq.cn/47/66399a6ff1259.webp!color # 子菜单名称(submenu name): 链接地址(address) || 图标(icon)
 
   # 中心菜单
   # center menu

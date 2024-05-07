@@ -159,7 +159,7 @@
 }
 
 #aside-content .card-power .power-set a:hover {
-    background: var(--efu-main);
+    background: #1c1c1c;
     color: var(--efu-white)
 }
 
