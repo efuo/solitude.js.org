@@ -78,7 +78,7 @@ nav:
 # 首页顶部样式
 # Home top style
 hometop:
-  enable: false # 是否打开 / if enable
+  enable: true # 是否打开 / if enable
   # banner display
   banner:
     # 左上角显示大文字
@@ -110,14 +110,13 @@ hometop:
         color: var(--efu-white)
       Flutter:
         img: https://s3.qjqq.cn/47/662f05391fe92.webp!color
-        color: '#795549'
+        color: '#fff'
 
   # 左下跳转按钮
   # Banner lower left jump button
   group:
-    热门: /tags/热门/ || st-fire-fill || linear-gradient(to right,#f65,#ffbf37)
-    教程: /tags/教程/ || st-book-mark-fill || linear-gradient(to right,#358bff,#15c6ff)
-    精选: /tags/精选/ || st-star-smile-fill || linear-gradient(to right,#18e7ae,#1eebeb)
+    必看: /categories/必看/ || st-fire-fill || linear-gradient(to right,#f65,#ffbf37)
+    作者: https://www.efu.me/ || st-external-link-fill || linear-gradient(to right,#358bff,#15c6ff)
 
   # 右侧置顶列表（在文章的front matter中添加“recommend: true”）
   # Right top list (add "recommend: true" in the front matter of the article)
