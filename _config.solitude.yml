@@ -794,6 +794,7 @@ valine:
     placeholder: "请友善发言"
     recordIP: true
     enableQQ: true
+    avatar_cdn: https://cravatar.cn/avatar/
 
 # artalk 配置信息
 # artalk settings
