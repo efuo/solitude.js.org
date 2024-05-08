@@ -350,7 +350,7 @@ post:
     locate: true # 位置 / Location
     wordcount: true # 字数 / Number of words
     readtime: true # 访问 / uv
-    pv: false # 浏览量 / pv
+    pv: true # 浏览量 / pv
     comment: true # 评论数 / Comment count
   # 打赏
   # reward
