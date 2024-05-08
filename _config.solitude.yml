@@ -126,16 +126,16 @@ hometop:
     sup: 置顶
     # 左下角大字
     # Large text in the lower left corner
-    title: Solitude 主题文档
+    title: 快速开始
     # 点击跳转链接
     # Click the jump link
-    url: https://solitude.js.org/
+    url: /p/222d372e.html
     # 显示背景图片
     # Display background image
-    img: https://s3.qjqq.cn/47/660a80f2b8dcd.webp!color
+    img: https://s3.qjqq.cn/47/663b05e3c786c.webp!color
     # 阴影颜色
     # Shadow color
-    color: "none"
+    color: "#94748cae"
 
 # carousel
 # 顶部推荐轮播图
