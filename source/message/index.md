@@ -12,5 +12,5 @@ date: 2024-05-04 19:42:56
 
 {% note success flat %}
 如果我帮助到你了，希望能够得到你的赞助，谢谢
-[爱发电](https://afdian.net/a/efu0u0)
+[爱发电](https://afdian.net/a/efu0u0)丨[支付宝](https://s3.qjqq.cn/47/663742160be01.webp!color)丨[微信](https://s3.qjqq.cn/47/663742bac8e52.webp!color)
 {% endnote %}
