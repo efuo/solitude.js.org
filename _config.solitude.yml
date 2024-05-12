@@ -57,6 +57,8 @@ nav:
       在线工具: /tlink/ || st-tools-fill
       音乐馆: /music/ || st-disc-fill
       关于: /about/ || st-contacts-fill
+    评论:
+      最近评论: /recentcomments/ || st-chat-poll-fill
       留言板: /message/ || st-chat-fill
 
   # 右侧按钮
