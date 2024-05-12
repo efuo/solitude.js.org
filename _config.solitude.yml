@@ -278,16 +278,16 @@ aside:
     wordcount: true
     # 访问量
     # PV
-    pv: true
+    pv: false
     # 访客数
     # UV
-    uv: true
+    uv: false
     # 最后更新日期
     # Last update date
-    updatetime: true
+    updatetime: false
     # 建站时间
     # Website creation time
-    runtimeenable: true
+    runtimeenable: false
     # 格式：yyyy-MM-dd hh-mm-ss
     # Format: yyyy-MM-dd hh-mm-ss
     runtime: "2024-05-04 00:00:00"
@@ -348,12 +348,12 @@ post:
   # Top article introduction
   meta:
     date: true # 发布日期 / Release date
-    updated: true # 更新日期 / Update date
-    locate: true # 位置 / Location
+    updated: false # 更新日期 / Update date
+    locate: false # 位置 / Location
     wordcount: true # 字数 / Number of words
     readtime: true # 访问 / uv
-    pv: true # 浏览量 / pv
-    comment: true # 评论数 / Comment count
+    pv: false # 浏览量 / pv
+    comment: false # 评论数 / Comment count
   # 打赏
   # reward
   award:
@@ -469,6 +469,8 @@ footer:
     支持:
       Sponsor: https://github.com/sponsors/efuo
       爱发电: https://afdian.net/a/efu0u0/
+      微信: https://s3.qjqq.cn/47/662e0958919cb.webp!color
+      支付宝: https://s3.qjqq.cn/47/662e0958919cb.webp!color
     服务:
       BlogFinder: https://bf.zzxworld.com/s/1237
     协议:
@@ -859,8 +861,6 @@ extends:
   # - <script src="https://cdn.bootcdn.net/ajax/libs/pace/1.2.4/pace.min.js"></script>
   body: # 在body中插入 / Insert in body
     - <script src="/js/solitude.js"></script>
-    - <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
-    - <script>LA.init({id:"3F15j2vtdTo7PPcN",ck:"3F15j2vtdTo7PPcN"})</script>
 
 # PWA
 # https://developer.mozilla.org/zh-CN/docs/Web/Progressive_web_apps
