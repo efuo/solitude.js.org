@@ -388,7 +388,7 @@ post:
   # Article theme color acquisition
   covercolor:
     enable: true
-    mode: local # local：本地取色 / api：img2color取色 : local: local color / api: img2color color
+    mode: api # local：本地取色 / api：img2color取色 : local: local color / api: img2color color
     api: https://api.qjqq.cn/api/Imgcolor?img= # api地址 / api address
     time: 43200000 # api取色间隔（毫秒），默认为12小时 / api color interval (milliseconds), default is 12 hours
   # footer
