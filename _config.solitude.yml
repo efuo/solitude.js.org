@@ -10,8 +10,8 @@
 # Guide: https://solitude.js.org/
 # You can get more detailed help from the guide
 #
-# 赞助：https://afdian.net/a/efu0u0
-# sponsor: https://afdian.net/a/efu0u0
+# 赞助：https://afdian.net/a/everfu
+# sponsor: https://github.com/sponsors/everfu
 #---------------------------
 
 # 站点设置
@@ -27,10 +27,10 @@ site:
     custom: Solitude
   # 网页icon
   # Web icon
-  siteIcon: https://s3.qjqq.cn/47/66399a6ff1259.webp!color
+  siteIcon: /img/pwa/favicon.ico
   # 页脚的Logo、加载动画默认的logo
   # Logo in the footer, default logo for loading animation
-  icon: https://s3.qjqq.cn/47/66399a6ff1259.webp!color
+  icon: /img/pwa/favicon.ico
 
 # 导航栏
 # NavBar
@@ -39,7 +39,7 @@ nav:
   # logo group
   group:
     项目: # 分类名称
-      Solitude: https://github.com/valor-x/hexo-theme-solitude || https://s3.qjqq.cn/47/66399a6ff1259.webp!color # 子菜单名称(submenu name): 链接地址(address) || 图标(icon)
+      Solitude: https://github.com/valor-x/hexo-theme-solitude || /img/pwa/favicon.ico # 子菜单名称(submenu name): 链接地址(address) || 图标(icon)
 
   # 中心菜单
   # center menu
@@ -96,22 +96,22 @@ hometop:
     # tip: 76x76 size
     icon:
       Kotlin:
-        img: https://s3.qjqq.cn/47/660a7c68ab465.webp!color
+        img: /icon/kt.png
         color: "var(--efu-blue)"
       Csharp:
-        img: https://s3.qjqq.cn/47/660a7c67ef1b3.webp!color
+        img: /icon/csharp.png
         color: "var(--efu-purple)"
       Golang:
-        img: https://s3.qjqq.cn/47/662f06bbaac36.webp!color
+        img: /icon/golang.png
         color: '#00ADD8'
       Nuxt:
-        img: https://s3.qjqq.cn/47/660a7c68d3f44.webp!color
+        img: /icon/nuxt.png
         color: '#0E182A'
       Sketch:
-        img: https://s3.qjqq.cn/47/660a7c697d83e.webp!color
+        img: /icon/sketch.png
         color: var(--efu-white)
       Flutter:
-        img: https://s3.qjqq.cn/47/662f05391fe92.webp!color
+        img: /icon/flutter.png
         color: '#fff'
 
   # 左下跳转按钮
@@ -134,7 +134,7 @@ hometop:
     url: /p/222d372e.html
     # 显示背景图片
     # Display background image
-    img: https://s3.qjqq.cn/47/663b05e3c786c.webp!color
+    img: /post_img/3c80d950.png
     # 阴影颜色
     # Shadow color
     color: "#94748cae"
@@ -157,7 +157,7 @@ aside:
   home:
     # 固定的信息（滑动不跟随）
     # Fixed information (not followed by sliding)
-    noSticky: "about,doc,afdian,flip"
+    noSticky: "about,doc,flip"
     # 不固定的信息（滑动跟随）
     # Unfixed information (sliding follow)
     Sticky: "allInfo"
@@ -181,7 +181,7 @@ aside:
     author:
       # 头像
       # Avatar
-      img: https://s3.qjqq.cn/47/6625c1a86d7fd.webp!color
+      img: /img/avatar.png
       # 表情图片链接
       # Emoticon image link
       # tip: 26x26 size
@@ -278,16 +278,16 @@ aside:
     wordcount: true
     # 访问量
     # PV
-    pv: false
+    pv: true
     # 访客数
     # UV
-    uv: false
+    uv: true
     # 最后更新日期
     # Last update date
-    updatetime: false
+    updatetime: true
     # 建站时间
     # Website creation time
-    runtimeenable: false
+    runtimeenable: true
     # 格式：yyyy-MM-dd hh-mm-ss
     # Format: yyyy-MM-dd hh-mm-ss
     runtime: "2024-05-04 00:00:00"
@@ -334,7 +334,7 @@ post:
       - https://api.qjqq.cn/api/Img?random=6
     # 文章发布默认地址
     # default post locate
-    locate: 衡阳
+    locate: 北京
     # 文章默认版权
     # default post copyright
     copyright:
@@ -348,12 +348,12 @@ post:
   # Top article introduction
   meta:
     date: true # 发布日期 / Release date
-    updated: false # 更新日期 / Update date
-    locate: false # 位置 / Location
+    updated: true # 更新日期 / Update date
+    locate: true # 位置 / Location
     wordcount: true # 字数 / Number of words
     readtime: true # 访问 / uv
     pv: false # 浏览量 / pv
-    comment: false # 评论数 / Comment count
+    comment: true # 评论数 / Comment count
   # 打赏
   # reward
   award:
@@ -388,13 +388,13 @@ post:
   # Article theme color acquisition
   covercolor:
     enable: true
-    mode: api # local：本地取色 / api：img2color取色 : local: local color / api: img2color color
+    mode: local # local：本地取色 / api：img2color取色 : local: local color / api: img2color color
     api: https://api.qjqq.cn/api/Imgcolor?img= # api地址 / api address
     time: 43200000 # api取色间隔（毫秒），默认为12小时 / api color interval (milliseconds), default is 12 hours
   # footer
   footer:
-    enable: false
-    desc: 来自 Efu 的文章 # 介绍文字
+    enable: true
+    desc: 来自 Solitude 的文章 # 介绍文字
     button: # 跳转按钮
       enable: true
       name: 了解更多
@@ -632,10 +632,10 @@ lazyload:
   field: site # post, site
   # 加载中显示图片
   # Loading display image
-  placeholder: https://s3.qjqq.cn/47/660a7f0ccb66b.gif!color
+  placeholder: /img/loading.gif
   # 加载失败显示图片
   # Loading failed display image
-  errorimg: https://s3.qjqq.cn/47/6635f44ee0991.webp!color
+  errorimg: /img/error_load.png
 
 # 加载动画
 # loading animation
@@ -699,7 +699,7 @@ wordcount: true
 # 访问统计
 # access statistics
 busuanzi: true
-busuanzi_use: 1 # 0: 原版 / 1: 青秸(other: 其它自定義的busuanzi平台)
+busuanzi_use: 0 # 0: 原版 / 1: 青秸(other: 其它自定義的busuanzi平台)
 
 # 搜索
 # search
@@ -860,20 +860,19 @@ extends:
     - <link rel="stylesheet" href="/css/custom.css">
   # - <script src="https://cdn.bootcdn.net/ajax/libs/pace/1.2.4/pace.min.js"></script>
   body: # 在body中插入 / Insert in body
-    - <script src="/js/solitude.js"></script>
 
 # PWA
 # https://developer.mozilla.org/zh-CN/docs/Web/Progressive_web_apps
 # docs: https://solitude.js.org/configuration/extra#pwa
 pwa:
-  enable: true
+  enable: false
   manifest: /manifest.json # manifest.json 文件路径
   theme_color: "#006a73" # 主题颜色
-  mask_icon: https://s3.qjqq.cn/47/66399a6ff1259.webp!color # 遮罩图标
-  apple_touch_icon: https://s3.qjqq.cn/47/66399a6ff1259.webp!color # 苹果触摸图标
-  bookmark_icon: https://s3.qjqq.cn/47/66399a6ff1259.webp!color # 书签图标
-  favicon_32_32: https://s3.qjqq.cn/47/663999c46d48d.webp!color # 32x32图标
-  favicon_16_16: https://s3.qjqq.cn/47/663999deb00f4.webp!color # 16x16图标
+  mask_icon: /img/pwa/favicon.ico # 遮罩图标
+  apple_touch_icon: /img/pwa/favicon.ico # 苹果触摸图标
+  bookmark_icon: /img/pwa/favicon.ico # 书签图标
+  favicon_32_32: /img/pwa/favicon_32.ico # 32x32图标
+  favicon_16_16: /img/pwa/favicon_16.ico # 16x16图标
 
 # 谷歌广告 (Google Adsense)
 google_adsense:
@@ -934,10 +933,10 @@ CDN:
   # The CDN provider of internal scripts (主题内 js 的 cdn 配置)
   # option: local/jsdelivr/unpkg/cdnjs/custom
   # Dev version can only choose. ( dev版本只能为 local )
-  internal: custom
+  internal: cdnjs
   # The CDN provider of third party scripts (第三方 js 的 cdn 配置)
   # option: jsdelivr/unpkg/cdnjs/custom
-  third_party: custom
+  third_party: cdnjs
 
   # Add version number to url, true or false
   version: true
@@ -947,7 +946,7 @@ CDN:
   custom_format: //open.lightxi.com/cdnjs/ajax/libs/${cdnjs_name}/${version}/${min_cdnjs_file}
 
   option:
-    solitude_css: //cdn2.codesign.qq.com/icons/7pOrz0WXB5ZWJPX/latest/iconfont.css
+    solitude_css: /font/iconfont.css
     busuanzi_qj_js: //pv.lemonso.com/js
     # algolia_search:
     # instantsearch:

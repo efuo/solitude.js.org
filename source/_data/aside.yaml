@@ -15,20 +15,3 @@
   <li class='card-category-list-item' onclick='pjax.loadUrl(\"/p/feaa1bcb.html\")'>📦 主题问答</li>
   <li class='card-category-list-item' onclick='pjax.loadUrl(\"/p/53685c23.html\")'>📝 进阶配置</li>
   </ul>"
-- name: afdian
-  title: 正在为主题开发赞助
-  class: card-power
-  id:
-  icon: solitude st-heart-3-fill
-  content_class:
-  content_id:
-  content_css:
-  content_html: '<a id="power-star" target="_blank"><div id="power-star-image"></div><div class="power-star-body"><div id="power-star-title"></div><div id="power-star-desc"></div></div></a>
-  <div class="power-list"><div class="power-item"><div class="power-item-body"></div></div></div>
-  <hr>
-  <div class="power-set">
-    <a class="power-set-item" title="为作者赞助" href="/about/">
-      <i class="solitude st-heart-3-fill"></i>
-      赞助作者
-    </a>
-  </div>'

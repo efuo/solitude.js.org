@@ -8,7 +8,7 @@ categories:
   - '必看'
 tags:
   - 标签外挂
-cover: https://s3.qjqq.cn/47/66362773209e3.webp!color
+cover: /post_img/e19cb4b7.png
 comment: true
 sticky: 1
 description: 本文档为 Solitude 主题内置标签的使用说明，包括按钮、图片、音频、视频、标签、时间轴、折叠块、外链、复选列表等。
